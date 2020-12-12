@@ -1,0 +1,35 @@
+@import 'libs/bootstrap-reboot.min.css';
+@import 'libs/fonts';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+}
+
+.divider {
+    display: block;
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/advantage';
+@import 'blocks/title';
+@import 'blocks/delivery';
+@import 'blocks/agent';
+@import 'blocks/price';

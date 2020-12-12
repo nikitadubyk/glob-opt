@@ -1,0 +1,29 @@
+.delivery {
+    padding: 50px 0;
+    &__divider {
+        margin-top: 20px;
+    }
+    &__subtitle {
+        margin-top: 15px;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+    }
+    &__descr {
+        margin-top: 25px;
+        text-align: justify;
+        &-title {
+            text-align: center;
+        }
+    }
+    &__text {
+        margin-top: 5px;
+    }
+}

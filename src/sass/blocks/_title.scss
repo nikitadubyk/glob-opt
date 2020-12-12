@@ -1,0 +1,23 @@
+.title {
+    color: $second-color;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+
+    &_fz16 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+        color: $main-color;
+    }
+}
+
+.subtitle {
+    color: $second-color;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}

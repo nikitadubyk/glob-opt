@@ -1,0 +1,13 @@
+.agent {
+    padding: 58px 0 72px 0;
+    background: url('../img/chine_bg.jpg') no-repeat 50% / cover;
+    min-height: 342px;
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__title, &__subtitle {
+        color: #fff;
+        margin-top: 20px;
+    }
+}
