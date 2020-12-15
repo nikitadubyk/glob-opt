@@ -41,6 +41,12 @@
             }
         }
     }
+    &__hamburger {
+        display: none;
+    }
+    &__close {
+        display: none;
+    }
     &__contacts {
         width: 340px;
         display: flex;
