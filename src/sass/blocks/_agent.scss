@@ -1,4 +1,4 @@
-.agent {
+.agent , .manage {
     padding: 58px 0 72px 0;
     background: url('../img/chine_bg.jpg') no-repeat 50% / cover;
     min-height: 342px;
@@ -10,4 +10,7 @@
         color: #fff;
         margin-top: 20px;
     }
+}
+.manage {
+    background: url('../img/town_bg.jpg') no-repeat 50% / cover;
 }

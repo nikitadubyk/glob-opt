@@ -1,5 +1,6 @@
 @import 'libs/bootstrap-reboot.min.css';
 @import 'libs/fonts';
+@import 'libs/slick';
 
 @import 'base/variables';
 @import 'base/mixins';
@@ -33,3 +34,10 @@ p {
 @import 'blocks/delivery';
 @import 'blocks/agent';
 @import 'blocks/price';
+@import 'blocks/consultation';
+@import 'blocks/work';
+@import 'blocks/feedback';
+@import 'blocks/question';
+@import 'blocks/map';
+@import 'blocks/footer';
+@import 'blocks/policy';

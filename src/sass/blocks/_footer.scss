@@ -1,0 +1,90 @@
+.footer {
+    padding: 28px 0;
+    min-height: 201px;
+    background-color: #25333c;
+    &__main {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        width: 550px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        color: #fff;
+    }
+    &__contacts {
+        width: 340px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__phone {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        &-call {
+            color: #ffffff;
+            font-size: 19px;
+            font-weight: 700;
+            &:hover {
+                text-decoration: none;
+                color: $main-color;
+                position: relative;
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 1px;
+                    background-color: $main-color;
+                    bottom: -5px;
+                }
+            }
+        }
+        &-text {
+            color: #fff;
+        }
+    }
+    
+    &__hr {
+        opacity: 0.3;
+        margin-top: 20px;
+    }
+
+    &__about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__year {
+        opacity: 0.6;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    &__policy {
+        color: $main-color;
+        font-size: 13px;
+        font-weight: 300;
+        &:hover {
+            color: $main-color;
+        }
+    }
+
+    &__site {
+        display: flex;
+        align-items: center;
+        width: 140px;
+        justify-content: space-between;
+        &-text {
+            opacity: 0.6;
+            color: #ffffff;
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+}

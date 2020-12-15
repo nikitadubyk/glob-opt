@@ -1,0 +1,32 @@
+.map {
+    background: url('../img/map.jpg') no-repeat 50%/cover;
+    min-height: 500px;
+    position: relative;
+    &__img {
+        position: absolute;
+        top: 209px;
+        left: 479px;
+    }
+    &__wrapper {
+        padding: 27px 49px 28px 30px;
+        width: 329px;
+        min-height: 158px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 570px;
+    }
+    &__descr {
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    &__link {
+        color: $main-color;
+        &:hover {
+            color: $main-color;
+        }
+    }
+}
