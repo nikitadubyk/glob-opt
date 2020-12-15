@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .agent , .manage{
+        &__subtitle {
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+
+    .agent , .manage{
+        padding: 40px 0 20px 0;
+        &__subtitle {
+            font-size: 16px;
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .agent , .manage{
+        padding: 40px 0 20px 0;
+        &__subtitle {
+            font-size: 14px;
+            margin-top: 15px;
+        }
+    }
+}
