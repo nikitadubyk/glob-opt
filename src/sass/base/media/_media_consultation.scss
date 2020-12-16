@@ -1,0 +1,70 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .consultation {
+        &__wrapper {
+            padding: 70px 70px 53px 70px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .consultation {
+        &__wrapper {
+            padding: 70px 40px 53px 40px;
+        }
+        &__form {
+            width: 100%;
+        }
+        &__input {
+            width: 200px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .consultation {
+        padding: 40px 0 60px 0;
+        &__wrapper {
+            padding: 70px 70px 40px 70px;
+        }
+        &__form {
+            flex-direction: column;
+            
+        }
+        &__input {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .consultation {
+        &__wrapper {
+            padding: 70px 20px 30px 20px;
+        }
+        &__form {
+            flex-direction: column;
+            
+        }
+        &__input {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+    }
+
+}

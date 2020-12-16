@@ -43,7 +43,7 @@
         }
     }
     .title {
-        font-size: 20px;
+        font-size: 24px;
     }
 }
 
@@ -51,6 +51,9 @@
     .container {
         width: 100%;
         padding: 0 10px;
+    }
+    .title {
+        font-size: 20px;
     }
     .advantage {
         &__wrapper {
