@@ -33,11 +33,13 @@
                 width: 15px;
                 height: 15px;
                 border-radius: 100%;
+                transform: scale(0.9);
             }
         }
         .slick-active {
             button {
                 border: 2px solid rgb(255, 11, 11);
+                transform: scale(1.1);
             }
         }
     }
